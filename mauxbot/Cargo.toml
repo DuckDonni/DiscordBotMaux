@@ -1,0 +1,9 @@
+[package]
+name = "mauxbot"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = {version = "*", features = ["full", "rt-multi-thread"]}
+serenity = {default-features = false, features = ["client", "gateway", "model", "rustls_backend"], version = "*"}
+dotenv = "0.15"

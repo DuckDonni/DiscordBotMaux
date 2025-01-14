@@ -1,0 +1,11 @@
+C:\Users\jonah\OneDrive\Documents\GitHub\DiscordMauxBot\mauxbot\target\debug\deps\libbitflags-3a71e46cebc6c588.rmeta: C:\Users\jonah\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.7.0\src\lib.rs C:\Users\jonah\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.7.0\src\iter.rs C:\Users\jonah\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.7.0\src\parser.rs C:\Users\jonah\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.7.0\src\traits.rs C:\Users\jonah\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.7.0\src\public.rs C:\Users\jonah\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.7.0\src\internal.rs C:\Users\jonah\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.7.0\src\external.rs
+
+C:\Users\jonah\OneDrive\Documents\GitHub\DiscordMauxBot\mauxbot\target\debug\deps\bitflags-3a71e46cebc6c588.d: C:\Users\jonah\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.7.0\src\lib.rs C:\Users\jonah\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.7.0\src\iter.rs C:\Users\jonah\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.7.0\src\parser.rs C:\Users\jonah\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.7.0\src\traits.rs C:\Users\jonah\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.7.0\src\public.rs C:\Users\jonah\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.7.0\src\internal.rs C:\Users\jonah\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.7.0\src\external.rs
+
+C:\Users\jonah\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.7.0\src\lib.rs:
+C:\Users\jonah\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.7.0\src\iter.rs:
+C:\Users\jonah\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.7.0\src\parser.rs:
+C:\Users\jonah\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.7.0\src\traits.rs:
+C:\Users\jonah\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.7.0\src\public.rs:
+C:\Users\jonah\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.7.0\src\internal.rs:
+C:\Users\jonah\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.7.0\src\external.rs:

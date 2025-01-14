@@ -1,0 +1,11 @@
+C:\Users\jonah\OneDrive\Documents\GitHub\DiscordMauxBot\mauxbot\target\debug\deps\libdotenv-a18bb7f078c311c2.rmeta: C:\Users\jonah\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\lib.rs C:\Users\jonah\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\parse.rs C:\Users\jonah\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\errors.rs C:\Users\jonah\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\iter.rs C:\Users\jonah\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\find.rs
+
+C:\Users\jonah\OneDrive\Documents\GitHub\DiscordMauxBot\mauxbot\target\debug\deps\libdotenv-a18bb7f078c311c2.rlib: C:\Users\jonah\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\lib.rs C:\Users\jonah\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\parse.rs C:\Users\jonah\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\errors.rs C:\Users\jonah\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\iter.rs C:\Users\jonah\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\find.rs
+
+C:\Users\jonah\OneDrive\Documents\GitHub\DiscordMauxBot\mauxbot\target\debug\deps\dotenv-a18bb7f078c311c2.d: C:\Users\jonah\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\lib.rs C:\Users\jonah\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\parse.rs C:\Users\jonah\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\errors.rs C:\Users\jonah\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\iter.rs C:\Users\jonah\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\find.rs
+
+C:\Users\jonah\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\lib.rs:
+C:\Users\jonah\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\parse.rs:
+C:\Users\jonah\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\errors.rs:
+C:\Users\jonah\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\iter.rs:
+C:\Users\jonah\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\find.rs:
