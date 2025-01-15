@@ -91,6 +91,7 @@ async fn main() {
     let intents = GatewayIntents::MESSAGE_CONTENT
         | GatewayIntents::GUILD_MESSAGES
         | GatewayIntents::GUILD_VOICE_STATES;
+        //| GatewayIntents::GUILD_APPLICATION_COMMANDS;
 
     let mut client = serenity::Client::builder(&token, intents)
         .event_handler(Handler)
