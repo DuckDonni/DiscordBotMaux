@@ -5,9 +5,11 @@ use serenity::{
         channel::{Channel, ChannelType, Message}, 
         gateway::{GatewayIntents, Ready}, 
         id::ChannelId, 
-        voice::VoiceState
+        voice::VoiceState,
+        application::ResolvedOption
     }, 
     prelude::*,
+    builder::{CreateCommand, CreateCommandOption},
 };
 use std::env;
 
@@ -20,22 +22,32 @@ const C_MESSSAGE: &str = "
 Oh my god, it's Claire!
 ";
 
-const D_message: &str = "
+const D_MESSAGE: &str = "
 Big daddy is back!
 ";
 const HELP_COMMAND: &str = "!help";
 const C_COMMAND: &str = "!claire";
 const D_COMMAND: &str = "!dom";
-const TARGET_CHANNEL_ID: ChannelId = ChannelId::new(605158981543002143); // Use `new` to initialize the ChannelId
+//const TARGET_CHANNEL_ID: ChannelId = ChannelId::new(605158981543002143); // Use `new` to initialize the ChannelId
 
 struct Handler;
+
+pub fn run(_options: &[ResolvedOption]) -> String {
+    "Hey, I'm alive!".to_string()
+}
+
+pub fn register() -> CreateCommand {
+    CreateCommand::new("ping").description("A ping command")
+}
 
 #[async_trait]
 impl EventHandler for Handler {
     async fn ready(&self, _: Context, ready: Ready) {
         println!("{} is connected!", ready.user.name);
     }
-
+        
+        
+    
     async fn message(&self, ctx: Context, msg: Message) {
         // Ignore DMs and respond only in guild channels
         if msg.guild_id.is_none() {
@@ -53,15 +65,15 @@ impl EventHandler for Handler {
                 println!("Error sending message: {:?}", why);
             }
         }
-        else if(msg.content.trim() == C_COMMAND){
+        else if msg.content.trim() == C_COMMAND{
             println!("Revieved !claire command");
             if let Err(why) = msg.channel_id.say(&ctx.http, C_MESSSAGE).await{
                 println!("Error sending message: {:?}", why);
             }
         }
-        else if(msg.content.trim() == D_COMMAND){
+        else if msg.content.trim() == D_COMMAND{
             println!("Revieved !dom command");
-            if let Err(why) = msg.channel_id.say(&ctx.http, D_message).await{
+            if let Err(why) = msg.channel_id.say(&ctx.http, D_MESSAGE).await{
                 println!("Error sending message: {:?}", why);
             }
         }
