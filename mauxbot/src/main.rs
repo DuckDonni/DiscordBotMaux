@@ -59,9 +59,7 @@ impl EventHandler for Handler {
         if let Some(channel_id) = new.channel_id {
             println!("User {} joined voice channel {}", new.user_id, channel_id);
             
-            let welcome_message = format!("
-            Oh my god it's <@{}>!
-            ", new.user_id);
+            let welcome_message = format!("Oh my god it's <@{}>!", new.user_id);
             
             if new.user_id == TARGET_ID1{
                 if let Err(why) = channel_id.say(&ctx.http, welcome_message).await {
@@ -82,7 +80,6 @@ async fn main() {
     let intents = GatewayIntents::MESSAGE_CONTENT
         | GatewayIntents::GUILD_MESSAGES
         | GatewayIntents::GUILD_VOICE_STATES;
-        //| GatewayIntents::GUILD_APPLICATION_COMMANDS;
 
     let mut client = serenity::Client::builder(&token, intents)
         .event_handler(Handler)
