@@ -5,5 +5,5 @@ edition = "2021"
 
 [dependencies]
 tokio = {version = "*", features = ["full", "rt-multi-thread"]}
-serenity = {default-features = false, features = ["client", "gateway", "model", "rustls_backend", "voice"], version = "*"}
+serenity = {default-features = false, features = ["full"], version = "*"}
 dotenv = "0.15"

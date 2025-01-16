@@ -1,7 +1,7 @@
 cargo:rerun-if-env-changed=RING_PREGENERATE_ASM
 cargo:rustc-env=RING_CORE_PREFIX=ring_core_0_17_8_
 OPT_LEVEL = Some(0)
-OUT_DIR = Some(C:\Users\jonah\Documents\GitHub\DiscordBotMaux\mauxbot\target\debug\build\ring-6a467524e4a58dbd\out)
+OUT_DIR = Some(C:\Users\jonah\OneDrive\Documents\GitHub\DiscordMauxBot\mauxbot\target\debug\build\ring-6a467524e4a58dbd\out)
 TARGET = Some(x86_64-pc-windows-msvc)
 cargo:rerun-if-env-changed=VCINSTALLDIR
 VCINSTALLDIR = None
@@ -15,7 +15,7 @@ cargo:rerun-if-env-changed=WindowsSDKVersion
 WindowsSDKVersion = None
 cargo:rerun-if-env-changed=LIB
 LIB = None
-PATH = Some(C:\Users\jonah\Documents\GitHub\DiscordBotMaux\mauxbot\target\debug\deps;C:\Users\jonah\Documents\GitHub\DiscordBotMaux\mauxbot\target\debug;C:\Users\jonah\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\x86_64-pc-windows-msvc\lib;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\jonah\.cargo\bin;C:\Users\jonah\AppData\Local\Microsoft\WindowsApps;C:\Users\jonah\AppData\Local\GitHubDesktop\bin;C:\Users\jonah\AppData\Local\Programs\Ollama;C:\Users\jonah\AppData\Local\Programs\Microsoft VS Code\bin;c:\Users\jonah\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand)
+PATH = Some(C:\Users\jonah\OneDrive\Documents\GitHub\DiscordMauxBot\mauxbot\target\debug\deps;C:\Users\jonah\OneDrive\Documents\GitHub\DiscordMauxBot\mauxbot\target\debug;C:\Users\jonah\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\x86_64-pc-windows-msvc\lib;C:\Program Files\Java\jdk-23\bin;C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\libnvvp;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Oculus\Support\oculus-runtime;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git LFS;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files\NVIDIA Corporation\Nsight Compute 2024.2.0\;C:\ProgramData\chocolatey\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\jonah\.cargo\bin;C:\Users\jonah\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\jonah\AppData\Local\Programs\Python\Python310\;C:\Users\jonah\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\jonah\AppData\Local\Programs\Python\Python37-32\;C:\Users\jonah\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\jonah\AppData\Local\Programs\Python\Python312\;%C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Oculus\Support\oculus-runtime;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Python37\Scripts\;C:\Python37\;C:\Users\jonah\AppData\Local\Microsoft\WindowsApps;, C:\Program Files (x86)\Python37\Scripts;C:\Users\jonah\AppData\Local\GitHubDesktop\bin;C:\Users\jonah\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jonah\AppData\Roaming\npm;C:\Users\jonah\AppData\Local\Tesseract-OCR;C:\Program Files\JetBrains\DataGrip 2024.1.4\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.0.1\bin;;C:\Users\jonah\AppData\Local\Programs\Ollama;C:\Users\jonah\AppData\Local\Microsoft\WindowsApps;)
 cargo:rerun-if-env-changed=INCLUDE
 INCLUDE = None
 HOST = Some(x86_64-pc-windows-msvc)
@@ -58,7 +58,7 @@ poly1305_vec.c
 p256-nistz.c
 cargo:rustc-link-lib=static=ring_core_0_17_8_
 OPT_LEVEL = Some(0)
-OUT_DIR = Some(C:\Users\jonah\Documents\GitHub\DiscordBotMaux\mauxbot\target\debug\build\ring-6a467524e4a58dbd\out)
+OUT_DIR = Some(C:\Users\jonah\OneDrive\Documents\GitHub\DiscordMauxBot\mauxbot\target\debug\build\ring-6a467524e4a58dbd\out)
 TARGET = Some(x86_64-pc-windows-msvc)
 cargo:rerun-if-env-changed=VCINSTALLDIR
 VCINSTALLDIR = None
@@ -72,7 +72,7 @@ cargo:rerun-if-env-changed=WindowsSDKVersion
 WindowsSDKVersion = None
 cargo:rerun-if-env-changed=LIB
 LIB = None
-PATH = Some(C:\Users\jonah\Documents\GitHub\DiscordBotMaux\mauxbot\target\debug\deps;C:\Users\jonah\Documents\GitHub\DiscordBotMaux\mauxbot\target\debug;C:\Users\jonah\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\x86_64-pc-windows-msvc\lib;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\jonah\.cargo\bin;C:\Users\jonah\AppData\Local\Microsoft\WindowsApps;C:\Users\jonah\AppData\Local\GitHubDesktop\bin;C:\Users\jonah\AppData\Local\Programs\Ollama;C:\Users\jonah\AppData\Local\Programs\Microsoft VS Code\bin;c:\Users\jonah\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand)
+PATH = Some(C:\Users\jonah\OneDrive\Documents\GitHub\DiscordMauxBot\mauxbot\target\debug\deps;C:\Users\jonah\OneDrive\Documents\GitHub\DiscordMauxBot\mauxbot\target\debug;C:\Users\jonah\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\x86_64-pc-windows-msvc\lib;C:\Program Files\Java\jdk-23\bin;C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\libnvvp;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Oculus\Support\oculus-runtime;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git LFS;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files\NVIDIA Corporation\Nsight Compute 2024.2.0\;C:\ProgramData\chocolatey\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\jonah\.cargo\bin;C:\Users\jonah\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\jonah\AppData\Local\Programs\Python\Python310\;C:\Users\jonah\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\jonah\AppData\Local\Programs\Python\Python37-32\;C:\Users\jonah\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\jonah\AppData\Local\Programs\Python\Python312\;%C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Oculus\Support\oculus-runtime;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Python37\Scripts\;C:\Python37\;C:\Users\jonah\AppData\Local\Microsoft\WindowsApps;, C:\Program Files (x86)\Python37\Scripts;C:\Users\jonah\AppData\Local\GitHubDesktop\bin;C:\Users\jonah\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jonah\AppData\Roaming\npm;C:\Users\jonah\AppData\Local\Tesseract-OCR;C:\Program Files\JetBrains\DataGrip 2024.1.4\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.0.1\bin;;C:\Users\jonah\AppData\Local\Programs\Ollama;C:\Users\jonah\AppData\Local\Microsoft\WindowsApps;)
 cargo:rerun-if-env-changed=INCLUDE
 INCLUDE = None
 HOST = Some(x86_64-pc-windows-msvc)
@@ -99,7 +99,7 @@ CFLAGS = None
 CARGO_ENCODED_RUSTFLAGS = Some()
 constant_time_test.c
 cargo:rustc-link-lib=static=ring_core_0_17_8_test
-cargo:rustc-link-search=native=C:\Users\jonah\Documents\GitHub\DiscordBotMaux\mauxbot\target\debug\build\ring-6a467524e4a58dbd\out
+cargo:rustc-link-search=native=C:\Users\jonah\OneDrive\Documents\GitHub\DiscordMauxBot\mauxbot\target\debug\build\ring-6a467524e4a58dbd\out
 cargo:rerun-if-changed=crypto\chacha\asm\chacha-armv4.pl
 cargo:rerun-if-changed=crypto\chacha\asm\chacha-armv8.pl
 cargo:rerun-if-changed=crypto\chacha\asm\chacha-x86.pl

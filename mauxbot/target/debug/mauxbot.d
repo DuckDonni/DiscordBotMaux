@@ -1,1 +1,1 @@
-C:\Users\jonah\Documents\GitHub\DiscordBotMaux\mauxbot\target\debug\mauxbot.exe: C:\Users\jonah\Documents\GitHub\DiscordBotMaux\mauxbot\src\main.rs
+C:\Users\jonah\OneDrive\Documents\GitHub\DiscordMauxBot\mauxbot\target\debug\mauxbot.exe: C:\Users\jonah\OneDrive\Documents\GitHub\DiscordMauxBot\mauxbot\src\main.rs

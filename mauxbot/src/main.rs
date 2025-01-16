@@ -1,15 +1,8 @@
 use dotenv::dotenv; // Import dotenv function to load the .env file
 use serenity::{
-    async_trait, 
-    model::{
-        channel::{Channel, ChannelType, Message}, 
-        gateway::{GatewayIntents, Ready}, 
-        id::ChannelId, 
-        voice::VoiceState,
-        application::ResolvedOption
-    }, 
-    prelude::*,
-    builder::{CreateCommand, CreateCommandOption},
+    all::UserId, async_trait, builder::{CreateCommand, CreateCommandOption}, model::{
+        application::ResolvedOption, channel::{Channel, ChannelType, Message}, gateway::{GatewayIntents, Ready}, id::ChannelId, voice::VoiceState
+    }, prelude::*
 };
 use std::env;
 
@@ -18,17 +11,11 @@ Hello I am Maux
 This is a test message for the help function!
 ";
 
-const C_MESSSAGE: &str = "
-Oh my god, it's Claire!
-";
 
-const D_MESSAGE: &str = "
-Big daddy is back!
-";
+
 const HELP_COMMAND: &str = "!help";
-const C_COMMAND: &str = "!claire";
-const D_COMMAND: &str = "!dom";
-//const TARGET_CHANNEL_ID: ChannelId = ChannelId::new(605158981543002143); // Use `new` to initialize the ChannelId
+
+const TARGET_ID1: UserId = UserId::new(531554945569259541);
 
 struct Handler;
 
@@ -55,7 +42,7 @@ impl EventHandler for Handler {
         }   
         
         // Log the message to confirm it's being received
-        println!("Received message: {}", msg.content);
+        println!("Received message: {} from channel {}", msg.content, msg.channel_id);
 
         // Check if the received message is the help command
         if msg.content.trim() == HELP_COMMAND {
@@ -65,21 +52,25 @@ impl EventHandler for Handler {
                 println!("Error sending message: {:?}", why);
             }
         }
-        else if msg.content.trim() == C_COMMAND{
-            println!("Revieved !claire command");
-            if let Err(why) = msg.channel_id.say(&ctx.http, C_MESSSAGE).await{
-                println!("Error sending message: {:?}", why);
-            }
-        }
-        else if msg.content.trim() == D_COMMAND{
-            println!("Revieved !dom command");
-            if let Err(why) = msg.channel_id.say(&ctx.http, D_MESSAGE).await{
-                println!("Error sending message: {:?}", why);
-            }
-        }
     }
 
-    
+    async fn voice_state_update(&self, ctx: Context, old: Option<VoiceState>, new: VoiceState) {
+        // Check if the user joined a voice channel
+        if let Some(channel_id) = new.channel_id {
+            println!("User {} joined voice channel {}", new.user_id, channel_id);
+            
+            let welcome_message = format!("
+            Oh my god it's <@{}>!
+            ", new.user_id);
+            
+            if new.user_id == TARGET_ID1{
+                if let Err(why) = channel_id.say(&ctx.http, welcome_message).await {
+                    println!("Error sending message to voice channel chat: {:?}", why);
+                }
+            }
+            
+        }
+    }
 }
 
 #[tokio::main]
